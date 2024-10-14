@@ -270,7 +270,7 @@ Pokedex_Init: ; 0x021E5AA0
 	str r1, [r4, r0]
 	ldr r0, [r4]
 	ldr r0, [r0, #8]
-	bl sub_02092BE0
+	bl FieldSystem_UnkSubA8_Get1
 	ldr r1, _021E5B54 ; =0x00001858
 	strb r0, [r4, r1]
 	ldr r0, [r4]
@@ -377,7 +377,7 @@ _021E5BA8:
 	ldr r0, [r4]
 	ldrb r2, [r4, r2]
 	ldr r0, [r0, #8]
-	bl sub_02092BD8
+	bl FieldSystem_UnkSubA8_Init
 	ldr r0, _021E5C14 ; =ov18_021E5C2C
 	bl ov123_0225F430
 	cmp r0, #0
@@ -12209,7 +12209,7 @@ _021EBC1C:
 	ldr r0, [r4]
 	ldrb r2, [r4, r2]
 	ldr r0, [r0, #8]
-	bl sub_02092BD8
+	bl FieldSystem_UnkSubA8_Init
 _021EBC30:
 	mov r0, #0x11
 	str r0, [sp]
@@ -12344,7 +12344,7 @@ _021EBD44:
 	ldr r0, [r4]
 	ldrb r2, [r4, r2]
 	ldr r0, [r0, #8]
-	bl sub_02092BD8
+	bl FieldSystem_UnkSubA8_Init
 _021EBD58:
 	mov r0, #0x11
 	str r0, [sp]
@@ -12527,7 +12527,7 @@ _021EBEDC:
 	ldr r0, [r4]
 	ldrb r2, [r4, r2]
 	ldr r0, [r0, #8]
-	bl sub_02092BD8
+	bl FieldSystem_UnkSubA8_Init
 _021EBEF0:
 	ldr r0, [r4, #8]
 	mov r1, #4
@@ -16179,7 +16179,7 @@ ov18_021EDC74: ; 0x021EDC74
 	ldr r0, [r5]
 	ldrb r2, [r5, r2]
 	ldr r0, [r0, #8]
-	bl sub_02092BD8
+	bl FieldSystem_UnkSubA8_Init
 	ldr r0, _021EDCD0 ; =0x00001858
 	strb r4, [r5, r0]
 	add r0, r5, #0
@@ -16318,7 +16318,7 @@ ov18_021EDDB4: ; 0x021EDDB4
 	add r5, r0, #0
 	ldr r0, [r5]
 	ldr r0, [r0, #8]
-	bl sub_02092BE4
+	bl FieldSystem_UnkSubA8_Get0
 	add r1, r0, #0
 	ldr r0, _021EDDF4 ; =0x00000878
 	lsl r1, r1, #0x10

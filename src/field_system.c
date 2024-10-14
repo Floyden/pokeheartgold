@@ -160,7 +160,7 @@ void FieldSystem_Delete(OVY_MANAGER *man) {
     MapMatrix_Free(fieldSystem->mapMatrix);
     Field_FreeMapEvents(fieldSystem);
     FreeToHeap(fieldSystem->bagCursor);
-    sub_02092BD0(fieldSystem->unkA8);
+    FieldSystem_UnkSubA8_Free(fieldSystem->unkA8);
     sub_02092DD8(fieldSystem->phoneRingManager);
     FreeToHeap(fieldSystem->unk0);
     OverlayManager_FreeData(man);

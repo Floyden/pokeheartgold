@@ -254,9 +254,9 @@
 .public GetPokedexDataNarcID
 .public GetDexWeightMsgBank
 .public GetDexHeightMsgBank
-.public sub_02092BD8
-.public sub_02092BE0
-.public sub_02092BE4
+.public FieldSystem_UnkSubA8_Init
+.public FieldSystem_UnkSubA8_Get1
+.public FieldSystem_UnkSubA8_Get0
 .public NNS_G2dGetImageLocation
 .public NNS_G2dGetImagePaletteLocation
 .public FX_Div
