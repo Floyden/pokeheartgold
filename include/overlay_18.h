@@ -8,7 +8,7 @@
 typedef struct PokedexArgs {
     Pokedex *pokedex;
     PlayerProfile *playerProfile;
-    u32 *unk_08;
+    u16 *unk_08;
     BOOL *menuInputStatePtr;
     int x;
     int y;

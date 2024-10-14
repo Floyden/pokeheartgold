@@ -145,7 +145,7 @@ struct FieldSystem {
     void *unk9C;
     UnkStruct_Fsys_A0 *unkA0;
     Save_LinkBattleRuleset *linkBattleRuleset;
-    u32 *unkA8;
+    u16 *unkA8;
     u32 unkAC;
     void *unkB0;
     s64 unkB4;
